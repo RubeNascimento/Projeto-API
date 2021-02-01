@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class='barralogo'>
+        <img src="imagens/logo.png" width="236" height="134" alt="">
+    </div>
+    <div class='backgroundpagina'>
+
+        <div class='bemvindo'>
+            <ul>
+                <li><a href="segundoprojeto.html">Página Inicial</a></li>
+                <li><a class="active" href="segundoprojetopaginapesquisa.html">Pesquisa de Jogadores</a></li>
+                <li><a href="segundoprojetopaginacriacao.html">Criação de Equipas</a></li>
+                <li><a href="segundoprojetofichajogador.html">Ficha de jogadores</a></li>
+                <li><a href="segundoprojetopaginacontactos.html">Contactos</a></li>
+            </ul>
+        </div>
+
+        <div class='lugarinputbotao'>
+            <div class='inputbotao'>
+                <div class='inputtt'>
+                    <input class='inputt' type="text" id="fname" name="fname" placeholder='Pesquisar jogador'>
+                </div>
+                <button class='botao' type="button"></button>
+            </div>
+        </div>
+
+        <div class='jogadores'>
+            <img class='imagemjogador' src="imagens/joaomario.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaopalhinha.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaopaulo.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaonovais.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaomario2.webp" alt="">
+            <img class='imagemjogador' src="imagens/joao afonso.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaoamaral.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaopedro.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaocamacho.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaotalhocha.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaojose.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaojaquité.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaolucas.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaomendes.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaomonteiro.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaovigario.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaopedro2.webp" alt="">
+            <img class='imagemjogador' src="imagens/joaoneto.webp" alt="">
+        </div>
+    </div>
+</body>
+
+<footer class='footer'>
+    <div class='boxfooter'>
+        <h1 class='titulofooter'>Segundo Projeto</h1>
+            <div class='socialmedia'>
+                <a href='#'>
+                    <img class="twit" src="imagens/Twitter_logo_2012.png" height="20" width="22" alt="">
+                </a>
+                <a href='#'>
+                    <img class="face" src="imagens/1024px-Facebook_Icon_(Single_Path_-_Transparent_'f').png" height="20" width="20" alt="">
+                </a>
+                <a href='#'>
+                    <img class="insta" src="imagens/1200px-Instagram.png" height="20" width="20" alt="">
+                </a>
+                <a href='#'>
+                    <img class="linked" src="imagens/linkedin.png" height="20" width="20" alt="">
+                </a>
+            </div>
+        <p>&copy; 2021 Universidade da Madeira</p>
+        <div class='linha'></div>
+        <p class='desenvolvido'>Projeto desenvolvido por Ruben Nascimento</p>
+    </div>
+</footer>
+<style>
+        
+    body {
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgb(216, 216, 216);
+    }
+
+    .barralogo {
+        width: 1500px;
+        height: 180px;
+        background-image: url(imagens/relva.jpg);
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .backgroundpagina {
+        width: 1500px;
+        background-color: white;
+    }
+
+    ul {
+        width: 1500px;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(32, 163, 119);
+    }
+
+    li a {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 20px 22px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: rgb(31, 197, 142);
+    }
+
+    .active {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .boxfooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 1500px;
+        height: 400px;
+        background-color: rgb(32, 163, 119);
+        text-align: center;
+    }
+
+    .socialmedia {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 300px;
+    }
+
+    .twit {
+        filter: brightness(0);
+    }
+
+    .face {
+        filter: brightness(0);
+    }
+
+    .insta {
+        filter: brightness(0);
+    }
+
+    .linked {
+        filter: brightness(0);
+    }
+
+    .twit:hover {
+        filter: none;
+    }
+
+    .face:hover {
+        filter: none;
+    }
+
+    .insta:hover {
+        filter: none;
+    }
+
+    .linked:hover {
+        filter: none;
+    }
+
+    .linha {
+        background-color: black;
+        width: 1500px;
+        height: 1px;
+    }
+
+    .desenvolvido {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .titulofooter {
+        padding-top: 40px;
+    }
+
+    .inputt {
+        margin-top: 5px;
+        line-height: 2em;
+        font-size: 16px;
+    }
+    
+
+    .inputbotao {
+        padding-top: 20px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .botao {
+        width: 40px;
+        height: 40px;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: white; 
+        color: black; 
+        border: 2px solid rgb(32, 163, 119);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background: url(imagens/icons8-search-48.png);
+        background-size: 20px;
+        background-position: 8px 8px;
+        background-repeat: no-repeat;
+    }
+
+    .botao:hover {
+        background-color: rgb(32, 163, 119);
+        color: white;
+    }
+
+    .inputt {
+        width: 500px;
+    }
+
+    .jogadores {
+        display: block;
+        justify-content: space-between;
+    }
+
+    .imagemjogador {
+        padding: 50px;
+    }
+</style>
